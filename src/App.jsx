@@ -16,10 +16,13 @@ function App() {
         <Formulario 
           pacientes={pacientes}
           setPacientes={setPacientes}
+          paciente={paciente}
+          setPaciente={setPaciente}
         />
         <ListadoPacientes 
-        pacientes={pacientes}
-        setPaciente={setPaciente}
+          pacientes={pacientes}
+          setPaciente={setPaciente}
+    
         />
 
       </div>

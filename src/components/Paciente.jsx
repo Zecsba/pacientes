@@ -1,5 +1,4 @@
 const Paciente = ({paciente, setPaciente}) =>{
-
     const {nombre, propietario, email, diaDeAlta, sintomas} = paciente
     return(
         <div className="m-3 bg-white shadow-md px-5 py-10 rounded-xl">
